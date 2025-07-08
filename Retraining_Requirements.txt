@@ -1,0 +1,6 @@
+pandas
+numpy
+tensorflow
+python-dotenv
+supabase
+scikit-learn
