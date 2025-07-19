@@ -10,11 +10,8 @@ from contextlib import asynccontextmanager
 import asyncio
 from dotenv import load_dotenv
 
-# Add the parent directory to the Python path to import backend.py
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 # Import the existing ML backend functions
-import backend as ml_backend
+import ml_backend
 
 # Load environment variables
 load_dotenv()
